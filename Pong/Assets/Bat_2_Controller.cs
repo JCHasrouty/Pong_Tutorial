@@ -16,11 +16,11 @@ public class Bat_2_Controller : MonoBehaviour {
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            rb.velocity = new Vector2(0f, 5f);
+            rb.velocity = new Vector2(0f, 10f);
         }
         else if (Input.GetKey(KeyCode.DownArrow))
         {
-            rb.velocity = new Vector2(0f, -5f);
+            rb.velocity = new Vector2(0f, -10f);
         }
         else
         {

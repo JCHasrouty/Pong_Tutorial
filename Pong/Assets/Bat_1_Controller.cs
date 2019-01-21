@@ -17,11 +17,11 @@ public class Bat_1_Controller : MonoBehaviour {
 	void Update () {
         if (Input.GetKey(KeyCode.W))
         {
-            rb.velocity = new Vector2(0f, 5f);
+            rb.velocity = new Vector2(0f, 10f);
         }
         else if (Input.GetKey(KeyCode.S))
         {
-            rb.velocity = new Vector2(0f, -5f);
+            rb.velocity = new Vector2(0f, -10f);
         }
         else
         {
